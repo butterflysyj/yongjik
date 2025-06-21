@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    
+    <!-- v3.0.0 Enhanced Meta Tags -->
+    <title>WordMaster Pro v3.0 - Next-Gen AI 영단어 학습</title>
+    <meta name="description" content="AI 기반 개인화 학습, 실시간 분석, 고급 발음 평가가 포함된 차세대 영단어 학습 앱. 모바일 최적화와 게임화 시스템으로 효과적인 어휘 학습을 경험하세요." />
+    <meta name="keywords" content="영단어, AI학습, 개인화교육, 발음평가, 실시간분석, 게임화학습, 모바일학습, 어휘향상, 스마트학습" />
+    <meta name="author" content="WordMaster Pro Team" />
+    <meta name="robots" content="index, follow" />
+    <meta name="language" content="Korean" />
+    <meta name="theme-color" content="#0f172a" />
+    <meta name="color-scheme" content="dark light" />
+    
+    <!-- v3.0.0 PWA Enhancement -->
+    <meta name="application-name" content="WordMaster Pro" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="WordMaster Pro" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="msapplication-TileColor" content="#0f172a" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    
+    <!-- v3.0.0 Social Media Optimization -->
+    <meta property="og:title" content="WordMaster Pro v3.0 - Next-Gen AI 영단어 학습" />
+    <meta property="og:description" content="AI 개인화 학습과 실시간 분석으로 혁신적인 영단어 학습 경험을 제공합니다." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://wordmaster-pro.app" />
+    <meta property="og:image" content="https://wordmaster-pro.app/og-image.png" />
+    <meta property="og:site_name" content="WordMaster Pro" />
+    <meta property="og:locale" content="ko_KR" />
+    
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="WordMaster Pro v3.0 - Next-Gen AI 영단어 학습" />
+    <meta name="twitter:description" content="AI 개인화 학습과 실시간 분석으로 혁신적인 영단어 학습 경험을 제공합니다." />
+    <meta name="twitter:image" content="https://wordmaster-pro.app/twitter-image.png" />
+    
+    <!-- v3.0.0 Performance & Security -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="referrer" content="strict-origin-when-cross-origin" />
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://cdn.tailwindcss.com" />
+    <link rel="dns-prefetch" href="https://esm.sh" />
+    
+    <!-- Enhanced Tailwind CSS for v3.0.0 -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        primary: {
+                            50: '#f0f9ff',
+                            100: '#e0f2fe', 
+                            200: '#bae6fd',
+                            300: '#7dd3fc',
+                            400: '#38bdf8',
+                            500: '#0ea5e9',
+                            600: '#0284c7',
+                            700: '#0369a1',
+                            800: '#075985',
+                            900: '#0c4a6e',
+                        },
+                        success: {
+                            50: '#f0fdf4',
+                            100: '#dcfce7',
+                            200: '#bbf7d0',
+                            300: '#86efac',
+                            400: '#4ade80',
+                            500: '#22c55e',
+                            600: '#16a34a',
+                            700: '#15803d',
+                            800: '#166534',
+                            900: '#14532d',
+                        },
+                        gradient: {
+                            from: '#667eea',
+                            via: '#764ba2',
+                            to: '#f093fb'
+                        }
+                    },
+                    animation: {
+                        'fade-in': 'fadeIn 0.5s ease-in-out',
+                        'slide-up': 'slideUp 0.3s ease-out',
+                        'bounce-in': 'bounceIn 0.6s ease-out',
+                        'pulse-glow': 'pulseGlow 2s infinite',
+                        'float': 'float 3s ease-in-out infinite',
+                        'spin-slow': 'spin 3s linear infinite',
+                    },
+                    keyframes: {
+                        fadeIn: {
+                            '0%': { opacity: '0' },
+                            '100%': { opacity: '1' }
+                        },
+                        slideUp: {
+                            '0%': { transform: 'translateY(100%)', opacity: '0' },
+                            '100%': { transform: 'translateY(0)', opacity: '1' }
+                        },
+                        bounceIn: {
+                            '0%': { transform: 'scale(0.3)', opacity: '0' },
+                            '50%': { transform: 'scale(1.05)' },
+                            '70%': { transform: 'scale(0.9)' },
+                            '100%': { transform: 'scale(1)', opacity: '1' }
+                        },
+                        pulseGlow: {
+                            '0%, 100%': { boxShadow: '0 0 5px rgba(34, 211, 238, 0.5)' },
+                            '50%': { boxShadow: '0 0 20px rgba(34, 211, 238, 0.8)' }
+                        },
+                        float: {
+                            '0%, 100%': { transform: 'translateY(0px)' },
+                            '50%': { transform: 'translateY(-10px)' }
+                        }
+                    },
+                    backdropBlur: {
+                        xs: '2px',
+                    }
+                }
+            }
+        }
+    </script>
+    
+    <!-- v3.0.0 Custom Styles -->
+    <style>
+        /* 고급 글래스모피즘 효과 */
+        .glass-morphism {
+            backdrop-filter: blur(16px) saturate(180%);
+            -webkit-backdrop-filter: blur(16px) saturate(180%);
+            background-color: rgba(17, 25, 40, 0.75);
+            border: 1px solid rgba(255, 255, 255, 0.125);
+        }
+        
+        .glass-morphism-light {
+            backdrop-filter: blur(16px) saturate(180%);
+            -webkit-backdrop-filter: blur(16px) saturate(180%);
+            background-color: rgba(255, 255, 255, 0.75);
+            border: 1px solid rgba(209, 213, 219, 0.3);
+        }
+        
+        /* 모바일 최적화 터치 효과 */
+        .touch-feedback {
+            -webkit-tap-highlight-color: rgba(34, 211, 238, 0.3);
+            -webkit-touch-callout: none;
+            -webkit-user-select: none;
+            user-select: none;
+        }
+        
+        /* 고급 그라데이션 */
+        .gradient-primary {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+        
+        .gradient-success {
+            background: linear-gradient(135deg, #4ade80 0%, #22c55e 100%);
+        }
+        
+        /* 향상된 스크롤바 */
+        ::-webkit-scrollbar {
+            width: 8px;
+            height: 8px;
+        }
+        
+        ::-webkit-scrollbar-track {
+            background: rgba(0, 0, 0, 0.1);
+            border-radius: 4px;
+        }
+        
+        ::-webkit-scrollbar-thumb {
+            background: rgba(34, 211, 238, 0.5);
+            border-radius: 4px;
+        }
+        
+        ::-webkit-scrollbar-thumb:hover {
+            background: rgba(34, 211, 238, 0.8);
+        }
+        
+        /* 모바일 세이프 에어리어 */
+        .safe-area-inset {
+            padding-top: env(safe-area-inset-top);
+            padding-bottom: env(safe-area-inset-bottom);
+            padding-left: env(safe-area-inset-left);
+            padding-right: env(safe-area-inset-right);
+        }
+    </style>
+    
+    <!-- v3.0.0 Manifest -->
+    <link rel="manifest" href="/manifest.json" />
+</head>
+<body class="safe-area-inset">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+</body>
+</html>

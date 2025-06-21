@@ -1,0 +1,43 @@
+{
+  "name": "wordmaster-pro",
+  "private": true,
+  "version": "3.0.0",
+  "type": "module",
+  "description": "Next-generation AI-powered vocabulary learning app with advanced personalization, real-time analytics, and mobile-first design",
+  "keywords": ["vocabulary", "learning", "ai", "education", "spaced-repetition", "mobile", "personalization", "analytics", "pronunciation", "gamification"],
+  "author": "WordMaster Pro Team",
+  "license": "MIT",
+  "homepage": "https://wordmaster-pro.app",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wordmaster/wordmaster-pro.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wordmaster/wordmaster-pro/issues"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest",
+    "lint": "eslint . --ext .ts,.tsx",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@google/genai": "latest",
+    "pdfjs-dist": "4.3.136",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "xlsx": "0.18.5"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.0",
+    "@types/react": "^19.1.8",
+    "@types/react-dom": "^19.1.6",
+    "typescript": "~5.7.2",
+    "vite": "^6.2.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
